@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="../css/TenagaPendidik.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<header>
+    <div class="navbar">
+        <div class="gambar">
+            <img src="../gambar/muhammadiyah.png" alt="Logo Sekolah" height="55px" width="60px">
+            <b>SMA MUHAMMADIYAH 1 PALEMBANG</b>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Beranda.html">Beranda</a></li>
+                <li class="dropdown">
+                  <a href="#">Profil Sekolah ▾</a>
+                  <div class="dropdown-menu">
+                    <a href="SejarahSekolah.html">Sejarah Sekolah</a>
+                    <a href="visimisi.html">Visi Misi</a>
+                    <a href="IdetitasSekolah.html">Identitas Sekolah</a>
+                  </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Tenaga Kependidikan ▾</a>
+                    <div class="dropdown-menu">
+                      <a href="TenagaPengajar.html">Staf Pengajar</a>
+                      <a href="TenagaKerja.html">Staf Tenaga Kerja</a>
+                      <a href="TenagaUnit.html">Unit Kerja</a>
+                    </div>
+                  </li>
+                <li><a href="ekskul.html">Ekstrakurikuler</a></li>
+                <li><a href="Prestasi.html">Prestasi</a></li>
+                <li><a href="Fasilitas.html">Fasilitas</a></li>
+                <li><a href="Masukan&Saran.html">Masukan & Saran</a></li>
+              </ul>
+        </nav>
+    </div>
+</header>
+      <main class="container">
+            <h2>Staf Pengajar</h2>
+            <div class="filter-container">
+              <button id="filterToggle" class="filter-button">
+                <span>&#9881;</span> Filter ▼
+              </button>
+              <div id="filterOptions" class="filter-dropdown hidden">
+                <div class="filter-item" data-info="all">Semua Mata Pelajaran</div>
+                <div class="filter-item" data-info="pai">Pendidikan Agama Islam</div>
+                <div class="filter-item" data-info="ekonomi">Ekonomi</div>
+                <div class="filter-item" data-info="penjas">Pendidikan Jasmani Olahraga dan Kesehatan</div>
+                <div class="filter-item" data-info="alquran">Baca Tulis Al-Qur'an</div>
+                <div class="filter-item" data-info="mtk">Matematika</div>
+                <div class="filter-item" data-info="pkn">Pendidikan Kewarganegaraan</div>
+                <div class="filter-item" data-info="fisika">Fisika</div>
+                <div class="filter-item" data-info="geografi">Geografi</div>
+                <div class="filter-item" data-info="bk">Bimbingan dan Konsling</div>
+                <div class="filter-item" data-info="bindo">Bahasa Indonesia</div>
+                <div class="filter-item" data-info="binggris">Bahasa Inggris</div>
+                <div class="filter-item" data-info="barab">Bahasa Arab</div>
+                <div class="filter-item" data-info="biologi">Biologi</div>
+                <div class="filter-item" data-info="sejarah">Sejarah</div>
+                <div class="filter-item" data-info="senib">Seni Budaya</div>
+                <div class="filter-item" data-info="kimia">Kimia</div>
+                <div class="filter-item" data-info="mu">Kemuhammadiyahan</div>
+              </div>
+            </div>
+        
+            <div class="card-grid">
+              <div class="card" data-info="ekonomi">
+                <img src="../gambar/gambarGuru/guru1.png" alt="Guru 1">
+                <h3><strong>Agustriyanti, S.Pd.</strong></h3>
+                <p>Ekonomi</p>
+              </div>
+              <div class="card" data-info="penjas">
+                <img src="../gambar/gambarGuru/guru2.png" alt="Guru 2">
+                <h3>Ahmad Akbar Aidil Adha, M.Pd.</h3>
+                <p>Pendididkan Jasmani Olahraga dan Kesehatan</p>
+              </div>
+              <div class="card" data-info="ekonomi">
+                <img src="../gambar/gambarGuru/guru3.png" alt="Guru 3">
+                <h3>Ahmad Arif, S.Pd., M.Si.</h3>
+                <p>Ekonomi</p>
+              </div>
+              <div class="card" data-info="alquran">
+                <img src="../gambar/gambarGuru/guru4.png" alt="Guru 4">
+                <h3>Ahmad Fitrayadi, S.ag.</h3>
+                <p>Baca Tulis Al-Qur'an</p>
+              </div>
+              <div class="card" data-info="pkn">
+                <img src="../gambar/gambarGuru/guru5.png" alt="Guru 5">
+                <h3>Ahmad Ghozali, S.Pd.</h3>
+                <p>Pendidikan Kewarganegaraan</p>
+              </div>
+              <div class="card" data-info="alquran">
+                <img src="../gambar/gambarGuru/guru6.png" alt="Guru 6">
+                <h3>Ahmad Humaidi, S.Pd.</h3>
+                <p>Baca Tulis Al-Qur'an</p>
+              </div>
+              <div class="card" data-info="fisika">
+                <img src="../gambar/gambarGuru/guru7.png" alt="Guru 7">
+                <h3>Aprilina, S.si.</h3>
+                <p>Fisika</p>
+              </div>
+              <div class="card" data-info="geografi">
+                <img src="../gambar/gambarGuru/guru8.png" alt="Guru 8">
+                <h3>Ari Kristofer, M.Pd., Gr.</h3>
+                <p>Geografi</p>
+              </div>
+              <div class="card" data-info="bk">
+                <img src="../gambar/gambarGuru/guru9.png" alt="Guru 9">
+                <h3>Atiyah Zulfiani, S.Pd.</h3>
+                <p>Bimbingan dan Konsling</p>
+              </div>
+              <div class="card" data-info="pai">
+                <img src="../gambar/gambarGuru/guru10.png" alt="Guru 10">
+                <h3>Ayu Lestari, S.Pd.</h3>
+                <p>Pendidikan Agama Islam</p>
+              </div>
+              <div class="card" data-info="mtk">
+                <img src="../gambar/gambarGuru/guru11.png" alt="Guru 11">
+                <h3>Basuki Widodo, S.Pd.</h3>
+                <p>Matematika</p>
+              </div>
+              <div class="card" data-info="pkn">
+                <img src="../gambar/gambarGuru/guru12.png" alt="Guru 12">
+                <h3>Citra Nurul Inayah, S.Pd.</h3>
+                <p>Pendidikan Kewarganegaraan</p>
+              </div>
+              <div class="card" data-info="geografi">
+                <img src="../gambar/gambarGuru/guru13.png" alt="Guru 13">
+                <h3>Dara Ayu Julianti, S,Pd.</h3>
+                <p>Geografi</p>
+              </div>
+              <div class="card" data-info="mtk">
+                <img src="../gambar/gambarGuru/guru14.png" alt="Guru 14">
+                <h3>Desi Kurnia Sari, M.Pd.</h3>
+                <p>Matematika</p>
+              </div>
+              <div class="card" data-info="bindo">
+                <img src="../gambar/gambarGuru/guru15.png" alt="Guru 15">
+                <h3>Dewi Mulyati, M.Pd.</h3>
+                <p>Bahasa Indonesia</p>
+              </div>
+              <div class="card" data-info="mtk">
+                <img src="../gambar/gambarGuru/guru16.png" alt="Guru 16">
+                <h3>Dian Horid, M.Pd.</h3>
+                <p>Matematika</p>
+              </div>
+              <div class="card" data-info="fisika">
+                <img src="../gambar/gambarGuru/guru17.png" alt="Guru 17">
+                <h3>Dian Meilynnia Anggraini, S.Pd.</h3>
+                <p>Fisika</p>
+              </div>
+              <div class="card" data-info="binggris">
+                <img src="../gambar/gambarGuru/guru18.png" alt="Guru 18">
+                <h3>Dra. Husnul Atika, M.Pd.</h3>
+                <p>Bahasa Inggris</p>
+              </div>
+              <div class="card" data-info="biologi">
+                <img src="../gambar/gambarGuru/guru19.png" alt="Guru 19">
+                <h3>Dra. Nafisah</h3>
+                <p>Biologi</p>
+              </div>
+              <div class="card" data-info="biologi">
+                <img src="../gambar/gambarGuru/guru20.png" alt="Guru 20">
+                <h3>Dra. Nasiroh, MM.</h3>
+                <p>Biologi</p>
+              </div>
+              <div class="card" data-info="barab">
+                <img src="../gambar/gambarGuru/guru21.png" alt="Guru 21">
+                <h3>Dra. Purwati</h3>
+                <p>Bahasa Arab</p>
+              </div>
+              <div class="card" data-info="mu">
+                <img src="../gambar/gambarGuru/guru22.png" alt="Guru 22">
+                <h3>Drs. Baharudin</h3>
+                <p>Kemuhammadiyahan</p>
+              </div>
+              <div class="card" data-info="mtk">
+                <img src="../gambar/gambarGuru/guru23.png" alt="Guru 23">
+                <h3>Drs. Fajrul Naja</h3>
+                <p>Matematika</p>
+              </div>
+              <div class="card" data-info="bk">
+                <img src="../gambar/gambarGuru/guru24.png" alt="Guru 24">
+                <h3>Drs. H. Effendi As</h3>
+                <p>Bimbingan dan Konsling</p>
+              </div>
+              <div class="card" data-info="penjas">
+                <img src="../gambar/gambarGuru/guru25.png" alt="Guru 25">
+                <h3>Dwi Febriansyah, M.Pd.</h3>
+                <p>Pendidikan Jasmani Olahraga dan Kesehatan</p>
+              </div>
+              <div class="card" data-info="pai">
+                <img src="../gambar/gambarGuru/guru26.png" alt="Guru 26">
+                <h3>Eddy Susanto, S.Ag., M.Pd.</h3>
+                <p>Pendidikan Agama Islam</p>
+              </div>
+              <div class="card" data-info="sejarah">
+                <img src="../gambar/gambarGuru/guru27.png" alt="Guru 27">
+                <h3>Eka Susilawati, S.Pd.</h3>
+                <p>Sejarah</p>
+              </div>
+              <div class="card" data-info="bindo">
+                <img src="../gambar/gambarGuru/guru28.png" alt="Guru 28">
+                <h3>Erma Septia Margareta, S.Pd.</h3>
+                <p>Bahasa Indonesia</p>
+              </div>
+              <div class="card" data-info="senib">
+                <img src="../gambar/gambarGuru/guru29.png" alt="Guru 29">
+                <h3>Evin Sandita, S.Pd.</h3>
+                <p>Seni Budaya</p>
+              </div>
+              <div class="card" data-info="penjas">
+                <img src="../gambar/gambarGuru/guru30.png" alt="Guru 30">
+                <h3>Fani Markasiddn, S.Pd., Mm.</h3>
+                <p>Pendidikan Jasmani Olahraga dan Kesehatan</p>
+              </div>
+              <div class="card" data-info="kimia">
+                <img src="../gambar/gambarGuru/guru31.png" alt="Guru 31">
+                <h3>Fathimah, S.Pd.</h3>
+                <p>Kimia</p>
+              </div>
+            </div>
+            <div class="pagination" id="pagination"></div>
+          </main> 
+
+    <script src="../js/tenagaPendidik.js"></script>
+
+    <footer>
+        <footer class="footer">
+            <hr>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <div class="logo">
+                            <img src="../gambar/muhammadiyah.png" alt="Logo" width="70" height="60">
+                            <div>
+                                <h1>SEKOLAH</h1>
+                                <p>SMA MUHAMMADIYAH 1 PALEMBANG</p>
+                            </div>
+                        </div>
+                        <h2>FOLLOW US</h2>
+                        <div class="social-icons">
+                            <a href="https://api.whatsapp.com/send/?phone=628128522928&text&type=phone_number&app_absent=0"><i class="fab fa-whatsapp" style="color: #25D366;"></i></a>
+                            <a href="https://web.facebook.com/SMAMUHSATU?_rdc=1&_rdr#"><i class="fab fa-facebook" style="color: #1877F2;"></i></a>
+                            <a href="https://x.com/smamuh1official"><i class="fab fa-twitter" style="color: #1DA1F2;"></i></a>
+                            <a href="https://www.instagram.com/smam1plg/#"><i class="fab fa-instagram" style="color: #E1306C;"></i></a>
+                            <a href="https://www.youtube.com/c/smam1plg"><i class="fab fa-youtube" style="color: #FF0000;"></i></a>
+                            <a href="https://www.tiktok.com/@smam1plg"><i class="fab fa-tiktok" style="color: #FF0050;"></i></a>
+                        </div>
+                    </div>
+    
+                    <div class="footer-section">
+                        <h2>INFO KONTAK</h2>
+                        <p><i class="fas fa-map-marker-alt"></i> Jl. Balayudha No. 21 A Km. 4,5 Palembang 30128 Telp/Fax </p>
+                        <p><i class="fas fa-phone-alt"></i> 0711-411316</p>
+                        <p><i class="fas fa-envelope"></i> smamuh1palembang@gmail.com</p>
+                        <p><i class="fas fa-clock"></i> Senin - Jumat, Pukul 06:30 - 17:30</p>
+                    </div>
+    
+                    <div class="footer-section">
+                        <h2>TENTANG</h2>
+                        <ul>
+                            <li><a href="Beranda.html">Beranda</a></li>
+                            <li><a href="visimisi.html">Visi dan Misi</a></li>
+                            <li><a href="Prestasi.html">Prestasi</a></li>
+                            <li><a href="TenagaK.html">Tenaga Kerja</a></li>
+                            <li><a href="Masukan&Saran.html">Masukan & Saran</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer-section">
+                        <h2>PESERTA DIDIK</h2>
+                        <ul>
+                            <li><a href="#">Prestasi</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <hr>
+                    <p>2025 © SMA MUHAMMADIYAH 1 PALEMBANG</p>
+                </div>
+            </div>
+        </footer>
